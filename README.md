@@ -44,9 +44,9 @@ DonateLife/
 
 ## Notes
 
-Phone numbers must be 10 digits.
-Email is validated for basic format (must contain @ and .).
-Last donation date cannot be in the future.
-A donor is considered eligible if more than 90 days have passed since the last donation.
+-Phone numbers must be 10 digits.
+-Email is validated for basic format (must contain @ and .).
+-Last donation date cannot be in the future.
+-A donor is considered eligible if more than 90 days have passed since the last donation.
 
 

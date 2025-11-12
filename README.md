@@ -37,16 +37,25 @@
 ## Project Structure
 
 DonateLife/
-├── Donor.java          # Donor model class
+
+├── Donor.java # Donor model class
+
 ├── DonorManager.java   # Donor list management class
+
 ├── DonorGUI.java       # Swing graphical user interface
+
 └── README.md           # Instructions and documentation
+
 
 ## Notes
 
 -Phone numbers must be 10 digits.
+
 -Email is validated for basic format (must contain @ and .).
+
 -Last donation date cannot be in the future.
+
 -A donor is considered eligible if more than 90 days have passed since the last donation.
+
 
 

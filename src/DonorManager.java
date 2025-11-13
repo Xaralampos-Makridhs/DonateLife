@@ -8,7 +8,7 @@ public class DonorManager {
         donors = new ArrayList<>();
     }
 
-    // Επιστρέφει λίστα donors (μη τροποποιήσιμη)
+    
     public List<Donor> getDonorList() {
         return Collections.unmodifiableList(donors);
     }

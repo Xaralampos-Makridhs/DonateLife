@@ -31,7 +31,7 @@ public class DonorGUI extends JFrame {
         donorManager = new DonorManager();
         setTitle("DonateLife - Donor Manager");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setSize(950, 650);
+        setSize(1700, 1000);
         setLayout(new BorderLayout());
 
         initFormPanel();
@@ -42,7 +42,6 @@ public class DonorGUI extends JFrame {
         setVisible(true);
     }
 
-    // ---------- Initialization Methods ----------
 
     private void initFormPanel() {
         JPanel formPanel = new JPanel(new GridLayout(9, 2, 5, 5));
@@ -143,7 +142,7 @@ public class DonorGUI extends JFrame {
         removeButton.addActionListener(e -> removeSelectedDonor());
     }
 
-    // ---------- Action Methods ----------
+
 
     private void addDonorAction() {
         Donor donor = createDonorFromFields(UUID.randomUUID());

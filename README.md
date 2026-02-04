@@ -58,7 +58,3 @@ cd DonateLife
 ## License
 
 This project is licensed under the MIT License.
-
----
-
-> **Note:** Update the above sections with concrete descriptions and instructions as per your actual codebase and architecture. This template is intended as a comprehensive starting point for a quality project README.
